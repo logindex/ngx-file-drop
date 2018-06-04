@@ -7,8 +7,8 @@ import { FileSystemFileEntry, FileSystemEntryMetadata, FileSystemEntry, FileSyst
 
 @Component({
   selector: 'file-drop',
-  templateUrl: './file-drop.component.html',
-  styleUrls: ['./file-drop.component.scss']
+  template: require('./file-drop.component.html'),
+  styles: [require('./file-drop.component.scss')]
 })
 
 
