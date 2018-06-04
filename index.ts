@@ -1,1 +1,1 @@
-export * from 'src/lib/ngx-drop';
+export * from './src/lib/ngx-drop';
